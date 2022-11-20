@@ -9,7 +9,7 @@ let db = [
 console.log('db:', db);
 
 routes.get('/', (req, res) => {
-  console.log('[get] res:', res.json(db));
+  console.log('[get] db:', db);
   return res.json(db);
 });
 
